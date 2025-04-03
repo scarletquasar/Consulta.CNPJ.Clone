@@ -1,4 +1,3 @@
-﻿
 using Consulta.CNPJ.Models;
 using System;
 using System.Collections.Generic;
@@ -9,7 +8,10 @@ namespace Consulta.CNPJ.Services
 {
     public interface ICNPJService
     {
-        CNPJResult ConsultarCPNJ(string cnpj);
-        Task<CNPJResult> ConsultarCPNJAsync(string cnpj);
+        CNPJResult ConsultarCNPJ(string cnpj);
+        Task<CNPJResult> ConsultarCNPJAsync(string cnpj);
+        bool ValidarCNPJAlfanumerico(string cnpj);
+        string ConverterParaNumerico(string cnpj);
+        int CalcularDV(string cnpj, int[] pesos);
     }
 }

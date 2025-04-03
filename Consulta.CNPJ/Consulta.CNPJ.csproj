@@ -12,7 +12,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>tbertuzzi</Authors>
     <Company>KBits</Company>
-    <Description>Serviço de consulta de dados através do CNPJ</Description>
+    <Description>Serviço de consulta de dados através do CNPJ alfanumérico</Description>
     <Copyright>Copyright ©2018 KBits</Copyright>
     <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
     <PackageTags>xamarin xamarin.forms cnpj consulta webforms windosforms aspnet</PackageTags>
