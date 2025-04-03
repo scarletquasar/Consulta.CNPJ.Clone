@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -87,8 +87,5 @@ namespace Consulta.CNPJ.Models
 
         [JsonProperty("capital_social")]
         public string CapitalSocial { get; set; }
-
-        //[JsonProperty("extra")]
-        //public Extra Extra { get; set; }
     }
 }
