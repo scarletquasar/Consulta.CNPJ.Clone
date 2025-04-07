@@ -1,4 +1,3 @@
-﻿
 using Consulta.CNPJ.Models;
 using System;
 using System.Collections.Generic;
@@ -9,7 +8,7 @@ namespace Consulta.CNPJ.Services
 {
     public interface ICNPJService
     {
-        CNPJResult ConsultarCPNJ(string cnpj);
-        Task<CNPJResult> ConsultarCPNJAsync(string cnpj);
+        CNPJResult ConsultarCPNJAlfanumerico(string cnpj);
+        Task<CNPJResult> ConsultarCPNJAlfanumericoAsync(string cnpj);
     }
 }

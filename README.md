@@ -27,7 +27,7 @@ Exemplo
  {
     CNPJService service = new CNPJService();
 
-    var cpnj = service.ConsultarCPNJ("05742247000105");
+    var cpnj = service.ConsultarCPNJAlfanumerico("12ABC34501DE");
  }
 
 ```

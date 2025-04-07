@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -21,5 +21,8 @@ namespace Consulta.CNPJ.Models
 
         [JsonProperty("pais_origem", NullValueHandling = NullValueHandling.Ignore)]
         public string PaisOrigem { get; set; }
+
+        [JsonProperty("cnpj_alphanumeric", NullValueHandling = NullValueHandling.Ignore)]
+        public string CNPJAlfanumerico { get; set; }
     }
 }
