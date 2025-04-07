@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Consulta.CNPJ.Helpers;
@@ -23,7 +23,7 @@ namespace Consulta.CNPJ.Services
 
         public async Task<CNPJResult> ConsultarCPNJAsync(string cnpj)
         {
-            if (string.IsNullOrEmpty(cnpj) || !Validacao.ValidaCNPJAlfanumerico(cnpj))
+            if (string.IsNullOrEmpty(cnpj) || !Validacao.ValidaCNPJ(cnpj))
                 throw new ArgumentException("CNPJ Invalido.");
 
             try
@@ -46,6 +46,10 @@ namespace Consulta.CNPJ.Services
             }
 
             return null;
+
+
+
+           
         }
     }
 }

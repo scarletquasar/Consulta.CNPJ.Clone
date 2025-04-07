@@ -1,3 +1,4 @@
+﻿
 using Consulta.CNPJ.Models;
 using System;
 using System.Collections.Generic;
